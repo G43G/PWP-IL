@@ -1,0 +1,304 @@
+@media screen and (max-width: 1150px) {
+	
+	main {
+		width: 964px;
+		font-size: 14px;
+	}
+	
+	.phone_left, .phone_right {
+		width: 42%;
+	}
+	
+	.left, .right {
+		margin: 0px 5px 0px 5px;
+	}
+	
+	.left img, .right img {
+		float: none;
+	}
+	
+	#left, #right {
+		margin: 0 auto;
+	}
+	
+	#left_color {
+		margin: 360px 0px 0px 5px;
+	}
+	
+	#right_color {
+		margin: 360px 5px 0px 0px;
+	}
+	
+	.accord_left {
+		margin: 50px 0px 0px 40px;
+	}
+	
+	.accord_right {
+		margin: 50px 40px 0px 0px;
+	}
+	
+	.pane {
+		font-size: 12px;
+	}
+	
+	section {
+		margin: 0 auto;
+		margin: 75px auto 0px;
+		width: 75%;
+	}
+	
+	iframe {
+		height: 200px;
+	}
+	
+	#about section{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	
+	main {
+		width: 704px;
+		font-size: 12px;
+	}
+	
+	#left_color {
+		margin: 220px 0px 0px 5px;
+	}
+	
+	#right_color {
+		margin: 220px 5px 0px 0px;
+	}
+	
+	.accord_left {
+		margin: 50px 0px 0px 30px;
+	}
+	
+	.accord_right {
+		margin: 50px 30px 0px 0px;
+	}
+	
+	.pane {
+		font-size: 10px;
+	}
+	
+	iframe {
+		height: 150px;
+	}
+	
+	#about {
+		width: 700px;
+	}
+	
+}
+
+@media screen and (max-width: 720px) {
+	
+	#nav_bar ul li {
+		width: 19%;
+	}
+	
+	main {
+		width: 544px;
+		font-size: 14px;
+	}
+	
+	#left_color {
+		margin: 280px 0px 0px 5px;
+	}
+	
+	#right_color {
+		margin: 1445px 5px 0px 0px;
+	}
+	
+	.left, .right {
+		margin: 0 auto;
+		float: none;
+		width: 75%;
+	}
+	
+	.phone_left, .phone_right {
+		margin: 75px auto 0px;
+		float: none;
+		width: 75%;
+	}
+	
+	.accord_left {
+		margin: 50px 0px 25px 40px;
+	}
+	
+	.accord_right {
+		margin: 50px 40px 25px 0px;
+	}
+	
+	.pane {
+		font-size: 12px;
+	}
+	
+	#about {
+		width: 540px;
+	}
+	
+	#about p {
+		margin-left: 25px;
+	}
+	
+	#profile {
+		margin-right: 25px;
+	}
+	
+	#form {
+		margin: 0 auto;
+		float: none;
+	}
+	
+	#map {
+		margin: 0 auto;
+		margin-bottom: 25px;
+		float: none;
+		width: 50%;
+		height: 200px;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	
+	#nav_bar {
+		width: 320px;
+	}
+	
+	#nav_bar ul {
+		width: 100px;
+		border-right: 1px solid #252525;
+		border-bottom: 1px solid #252525;
+		border-left: 1px solid #252525;
+	}
+	
+	#nav_bar ul li, #infoMenu li {
+		margin: 0 auto;
+		float: none;
+		width: 100px;
+	}
+	
+	#slideMenu {
+		margin: 0 auto;
+		width: 100px;
+		height: 50px;
+		background-image: url("../Pictures/General/Menu.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		cursor: pointer;
+	}
+
+	#slideMenu.temp, #slideMenu:hover{
+		background-image: url("../Pictures/General/Menu_Alt.png");
+	}
+	
+	#infoMenu{
+		margin: 0 auto;
+		width: 100px;
+		display: none;
+		background-color: #555555;
+		z-index: 1000;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+	
+	main {
+		width: 320px;
+		font-size: 10px;
+	}
+	
+	#left_color, #right_color {
+		width: 25px;
+		height: 150px;
+	}
+	
+	#left_color {
+		margin: 185px 0px 0px 5px;
+	}
+	
+	#right_color {
+		margin: 1015px 5px 0px 0px;
+	}
+	
+	.color {
+		width: 25px;
+		height: 15%;
+	}
+	
+	.accord_left {
+		margin: 50px 0px 25px 25px;
+	}
+	
+	.accord_right {
+		margin: 50px 25px 25px 0px;
+	}
+	
+	.pane {
+		font-size: 8px;
+	}
+	
+	.left, .right {
+		margin: 0 auto;
+		float: none;
+		width: 75%;
+		min-height: 50px;
+	}
+	
+	iframe {
+		width: 100%;
+		margin: 0 auto;
+		display: block;
+		float: none;
+	}
+	
+	#about {
+		width: 310px;
+	}
+	
+	#about section, #about p, #profile {
+		width: 75%;
+		margin: 25px auto 0px;
+		float: none;
+	}
+	
+	#form {
+		margin: 25px auto 0px;
+		margin-right: 10px;
+		float: none;
+		border-spacing: 5px;
+	}
+	
+	#name, #mail, textarea {
+		width: 160px;
+		height: 19px;
+		padding: 3px;
+		resize: none;
+	}
+	
+	textarea {
+		height: auto;
+	}
+	
+	#map {
+		margin: 25px auto 0px;
+		margin-bottom: 25px;
+		float: none;
+		width: 75%;
+		height: 200px;
+	}
+	
+	footer {
+		font-size: 10px;
+	}
+}
+
+@media screen and (min-width: 561px) {
+	#infoMenu {
+		display: block !important;
+	}
+}

@@ -1,0 +1,211 @@
+img {
+	max-width: 100%;
+	height: auto;
+	border: none;
+}
+
+#wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+#nav_wrapper {
+	position: fixed;
+	width: 100%; 
+	height: 50px;
+	top: 0;
+	z-index: 1000;
+}
+
+#slideMenu {
+	margin: 0 auto;
+}
+
+#logo_left, #logo_right {
+	width: 25px;
+	height: 30px;
+}
+
+#logo_left {
+	margin: 10px 0px 10px 10px;
+	float: left;
+}
+
+#logo_right {
+	margin: -40px 10px 0px 0px;
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+main {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.left, .right, .phone_left, .phone_right {
+	width: 45%;
+	min-height: 275px;
+	text-align: center;
+}
+
+.right, .phone_right, .left img {
+	float: right;
+}
+
+.left, .phone_left, .right img {
+	float: left;
+}
+
+section {
+	width: 100%;
+	text-align: center;
+}
+
+iframe {
+	margin-right: -7px;
+	width: 50%;
+	display: inline-block;
+	border: 1px;
+}
+
+#left_color, #right_color {
+	width: 50px;
+	height: 250px;
+}
+
+#left_color {
+	margin: 420px 0px 0px 10px;
+	float: left;
+	left: 0;
+}
+
+#right_color {
+	margin: 420px 10px 0px 0px;
+	float: right;
+	right: 0;
+}
+
+.color {
+	height: 20%;
+	width: 50px;
+	border-radius: 100%;
+}
+
+.color:hover {
+	opacity: 0.7;
+}
+
+#Silver, #Space, #Rose, #Gold, #form img  {
+	cursor: pointer;
+}
+
+#accordion {
+	width: 80%;
+}
+
+.accord_left {
+	margin: 50px 0px 0px 45px;
+	float: left;
+}
+
+.accord_right {
+	margin: 50px 45px 0px 0px;
+	float: right;
+}
+
+.pane {
+	font-size: 14px;
+}
+
+.spec {
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+.spec td {
+	padding-left: 5px;
+}
+
+.spec tr:last-child, #form tr {
+	border-bottom: none;
+}
+
+.bar {
+	width: 100%;
+	height: 25px;
+	text-align: center;
+}
+
+.button {
+	padding: 10px 15px 10px 15px;
+	background-color: #007AFF;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	box-shadow: 0px 2px 2px #0029FF;
+	border: 1px solid #3888D0;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.button:hover {
+	text-decoration: none;
+}
+
+#about {
+	width: 750px;
+	min-height: 375px;
+	border-radius: 10px;
+}
+
+#profile {
+	margin-right: 50px;
+	float: right;
+	width: 30%;
+	border-radius: 100%;
+}
+
+#about section {
+	float: left;
+}
+
+#about p {
+	margin-left: 50px;
+	float: left;
+	width: 50%;
+	text-align: justify;
+}
+
+#form {
+	margin-left: 25px;
+	float: left;
+	width: 50%;	
+	text-align: left;
+	border-spacing: 25px;
+}
+
+#center {
+	text-align: center;
+}
+
+#name, #mail, textarea {
+	width: 197px;
+	height: 19px;
+	padding: 3px;
+	resize: none;
+}
+
+textarea {
+	height: auto;
+}
+
+#map {
+	margin: 25px 50px 0px 0px;
+	float: right;
+	width: 30%;
+	height: 250px;
+}

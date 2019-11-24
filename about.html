@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>iLab - About</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+		<meta name="description" content="iPhone News"/>
+		<meta name="keywords" content="Home, iPhone, iOS, iCloud, Apple"/>
+		<meta name="author" content="Bogdan Matorkić">
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/text.css"/>
+		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+		<link rel="stylesheet/less" type="text/css" href="css/styles.less"/>
+		<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+		<link rel="shortcut icon" href="Pictures/General/Favicon.ico"/>
+		<script type="text/javascript" src="script/jquery-1.12.2.min.js"></script>
+		<script type="text/javascript" src="script/script.js"></script>
+		<script type="text/javascript" src="script/less.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.6.1/less.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<nav id="nav_wrapper">
+				<a href="index.html">
+					<div id="logo_left"></div>
+				</a>
+				<nav id="nav_bar">
+				<section id="slideMenu"></section>
+					<ul id="infoMenu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="iPhone.html">iPhone</a></li>
+						<li><a href="iOS.html">iOS</a></li>
+						<li><a href="iCloud.html">iCloud</a></li>
+						<li><a class="active" href="about.html">About</a></li>
+					</ul>
+				</nav>
+				<a href="index.html">
+					<div id="logo_right"></div>
+				</a>
+			</nav>
+			<main id="about">
+				<section>
+					<p>My name is Bogdan Matorkić (student number 30/13) and I am currently studying Internet Technologies on ICT College of Vocational Studies, third year in Belgrade. I have interest and knowledge in front-end programming and I am eager to always learn something new.<br><br>Feel free to contact me for anything.</p>
+					<img src="Pictures/About/Profile.jpg" id="profile" alt="Profile picture" onerror="alert('There was an error during picture loading.')"/>
+				</section>
+				<section>
+					<form>
+						<table id="form">
+							<tr>
+								<td>
+									<label for="name">Name: </label>
+								</td>
+								<td>
+									<input type="text" id="name" name="name"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="mail">E-mail: </label>
+								</td>
+								<td>
+									<input type="email" id="mail" name="mail"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="message">Message: </label>
+								</td>
+								<td>
+									<textarea id="message" name="message" placeholder="Type your message here..."></textarea>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>Location: </label>
+								</td>
+								<td>
+									<img src="Pictures/About/Check_Red.png" id="location" title="Share your location" alt="Check-in icon" onerror="alert('There was an error during picture loading.')" onClick="getLocation()"/>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2" id="center"><input type="button" name="submit" class="button" id="submit" value="Contact me" onClick="check()"/></td>
+							</tr>
+						</table>
+					</form>
+					<div id="map"></div>
+				</section>
+				<div class="clear"></div>
+			</main>
+			<footer>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="iPhone.html">iPhone</a></li>
+					<li><a href="iOS.html">iOS</a></li>
+					<li><a href="iCloud.html">iCloud</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="documentation.pdf" target="_blank">Documentation</a></li>
+				</ul>
+				<h5>Made by: Bogdan Matorkić, Source: <a href="https://www.apple.com/" target="_blank">www.apple.com</a>, Copyright &copy; 2016 Apple Inc. All rights reserved.</h5>
+			</footer>
+		</div>
+	</body>
+</html>
