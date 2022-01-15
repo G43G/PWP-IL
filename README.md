@@ -1,5 +1,5 @@
 # PWP-IL
-Website from course Practicum - Web Programming in ICT 
+Website from ICT Practicum - Web Programming course 
 
 TO DO:
 
